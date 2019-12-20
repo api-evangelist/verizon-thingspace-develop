@@ -1,0 +1,87 @@
+{
+    "name": "Verizon ThingSpace Develop",
+    "description": "<p>ThingSpace is the place to create the Things that power our world and make us smarter. From the connected car to the intelligent lighting, ThingSpace provides the tools and resources to help you create the next smart app. To get started, click here to check out our Dev Kits or click here for the Try it features to test our APIs. Check back with us soon for blogs and forums and other cool resources.<\/p>",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/vzlogo_lg.png",
+    "tags": [
+        "have api"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/verizon-thingspace-develop\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "ThingSpace Connectivity Management API",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/vzlogo_lg.png",
+            "humanURL": "https:\/\/thingspace.verizon.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/thingspace-connectivity-management-api-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/thingspace-connectivity-management-api-postman-collection.json"
+                }
+            ]
+        },
+        {
+            "name": "Verizon Thingspace Device Messaging API",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/vzlogo_lg.png",
+            "humanURL": "https:\/\/thingspace.verizon.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/verizon-thingspace-device-messaging-api-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/verizon-thingspace-device-messaging-api-postman-collection.json"
+                }
+            ]
+        },
+        {
+            "name": "Verizon Cloud APIs",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/vzlogo_lg.png",
+            "humanURL": "https:\/\/thingspace.verizon.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/verizon-cloud-apis-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/verizon-cloud-apis-postman-collection.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Developers",
+            "url": "https:\/\/thingspace.verizon.com\/developer\/"
+        },
+        {
+            "type": "Transparency Report",
+            "url": "http:\/\/www.verizon.com\/about\/portal\/transparency-report\/"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/vzenterprise"
+        },
+        {
+            "type": "Website",
+            "url": "https:\/\/thingspace.verizon.com"
+        }
+    ]
+}
