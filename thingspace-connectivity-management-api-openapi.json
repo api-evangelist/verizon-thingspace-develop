@@ -1,0 +1,1050 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "v1",
+        "title": "ThingSpace Connectivity Management API",
+        "description": "The Connectivity Management APIs enable you to integrate and automate Verizon Wireless service provisioning, monitoring, and control directly with your existing customer support, enterprise resource planning, or supply chain management systems ??? or with your innovative, new applications ??? with easy-to-use REST requests.",
+        "termsOfService": "https:\/\/thingspace.verizon.com\/developer\/terms"
+    },
+    "servers": [
+        "httpshttp:\/\/thingspace.io\/api\/m2m\/v1"
+    ],
+    "paths": [],
+    "components": {
+        "schemas": {
+            "AddDevicesRequest": {
+                "type": "object",
+                "properties": {
+                    "accountName": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "customFields": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "devicesToAdd": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "groupName": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "skuNumber": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "state": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "AddDevicesResponseMessage": {
+                "type": "object",
+                "properties": {
+                    "deviceIds": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "response": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "Address": {
+                "type": "object",
+                "properties": {
+                    "addressLine1": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "addressLine2": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "city": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "country": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "state": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "zip": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "Callback": {
+                "type": "object",
+                "properties": {
+                    "accountName": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "password": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "serviceName": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "url": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "username": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "CallbackActionResponse": {
+                "type": "object",
+                "properties": {
+                    "accountName": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "serviceName": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "CarrierActionsRequest": {
+                "type": "object",
+                "properties": {
+                    "accountName": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "customFields": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "devices": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "groupName": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "servicePlan": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "CarrierActivateRequest": {
+                "type": "object",
+                "properties": {
+                    "accountName": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "carrierIpPoolName": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "carrierName": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "costCenterCode": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "customFields": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "devices": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "groupName": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "leadId": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "mdnZipCode": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "publicIpRestriction": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "servicePlan": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "skuNumber": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "CarrierDeactivateRequest": {
+                "type": "object",
+                "properties": {
+                    "accountName": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "customFields": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "devices": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "etfWaiver": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "groupName": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "reasonCode": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "servicePlan": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "CarrierInformation": {
+                "type": "object",
+                "properties": {
+                    "carrierName": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "servicePlan": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "state": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "ChangeDeviceIdRequest": {
+                "type": "object",
+                "properties": {
+                    "assignNonGeoMdn": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "change4gOption": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "deviceIds": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "deviceIdsTo": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "npaNxx": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "servicePlan": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "zipCode": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "ConnectionEvent": {
+                "type": "object",
+                "properties": {
+                    "connectionEventAttributes": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "extendedAttributes": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "occurredAt": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "ConnectionHistoryResponse": {
+                "type": "object",
+                "properties": {
+                    "connectionHistory": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "hasMoreData": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "CreateDevGroupRequest": {
+                "type": "object",
+                "properties": {
+                    "accountName": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "devicesToAdd": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "groupDescription": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "groupName": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "CustomerName": {
+                "type": "object",
+                "properties": {
+                    "firstName": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "lastName": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "middleName": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "title": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "CustomFieldsUpdateRequest": {
+                "type": "object",
+                "properties": {
+                    "accountName": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "customFields": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "customFieldsToUpdate": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "devices": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "groupName": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "servicePlan": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "Device": {
+                "type": "object",
+                "properties": {
+                    "accountName": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "billingCycleEndDate": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "carrierInformations": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "connected": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "createdAt": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "customFields": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "deviceIds": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "extendedAttributes": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "groupNames": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "ipAddress": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "lastActivationBy": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "lastActivationDate": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "lastConnectionDate": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "DeviceAggregateUsageListRequest": {
+                "type": "object",
+                "properties": {
+                    "accountName": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "deviceIds": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "endTime": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "groupName": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "startTime": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "DeviceConnectionListRequest": {
+                "type": "object",
+                "properties": {
+                    "earliest": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "latest": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "DeviceCostCenterRequest": {
+                "type": "object",
+                "properties": {
+                    "accountName": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "costCenter": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "customFields": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "devices": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "groupName": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "removeCostCenter": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "servicePlan": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "DeviceId": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "kind": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "DeviceList": {
+                "type": "object",
+                "properties": {
+                    "deviceIds": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "DeviceListRequest": {
+                "type": "object",
+                "properties": {
+                    "accountName": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "currentState": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "customFields": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "earliest": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "groupName": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "latest": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "servicePlan": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "DeviceListResponse": {
+                "type": "object",
+                "properties": {
+                    "devices": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "hasMoreData": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "DevicePrlListRequest": {
+                "type": "object",
+                "properties": {
+                    "accountName": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "customFields": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "deviceIds": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "groupName": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "servicePlan": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "DeviceProvisioningHistoryListRequest": {
+                "type": "object",
+                "properties": {
+                    "earliest": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "latest": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "DeviceProvisioningHistoryListResponse": {
+                "type": "object",
+                "properties": {
+                    "hasMoreData": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "provisioningHistory": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "DeviceUsageListRequest": {
+                "type": "object",
+                "properties": {
+                    "earliest": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "latest": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "DeviceUsageListResponse": {
+                "type": "object",
+                "properties": {
+                    "hasMoreData": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "usageHistory": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "GroupListResponse": {
+                "type": "object",
+                "properties": {
+                    "description": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "devices": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "hasMoreData": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "GroupResponse": {
+                "type": "object",
+                "properties": {
+                    "description": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "extendedAttributes": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "isDefaultGroup": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "GroupUpdateRequest": {
+                "type": "object",
+                "properties": {
+                    "devicesToAdd": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "devicesToRemove": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "newGroupDescription": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "newGroupName": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "KvPair": {
+                "type": "object",
+                "properties": {
+                    "key": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "value": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "LeadInformationResponse": {
+                "type": "object",
+                "properties": {
+                    "hasMoreData": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "leads": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "LeadResponse": {
+                "type": "object",
+                "properties": {
+                    "leadId": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "leadState": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "LogInRequest": {
+                "type": "object",
+                "properties": {
+                    "username": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "password": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "LogInResponse": {
+                "type": "object",
+                "properties": {
+                    "sessionToken": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "LogOutRequest": {
+                "type": "object",
+                "properties": {
+                    "sessionToken": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "PlaceOfUse": {
+                "type": "object"
+            },
+            "ProvisioningHistory": {
+                "type": "object",
+                "properties": {
+                    "eventBy": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "eventType": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "extendedAttributes": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "mdn": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "msisdn": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "occurredAt": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "servicePlan": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "status": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "RegisterCallbackRequest": {
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "url": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "username": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "password": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "RequestResponse": {
+                "type": "object",
+                "properties": {
+                    "requestId": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "RestErrorResponse": {
+                "type": "object",
+                "properties": {
+                    "errorCode": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "errorMessage": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "RestSuccessResponse": {
+                "type": "object",
+                "properties": {
+                    "success": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "ServicePlanResponse": {
+                "type": "object",
+                "properties": {
+                    "carrierServicePlanCode": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "code": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "extendedAttributes": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "sizeKb": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "ServicePlanUpdateRequest": {
+                "type": "object",
+                "properties": {
+                    "accountName": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "currentServicePlan": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "customFields": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "devices": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "groupName": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "servicePlan": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "SessionResetPasswordRequest": {
+                "type": "object",
+                "properties": {
+                    "oldPassword": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "SessionResetPasswordResponse": {
+                "type": "object",
+                "properties": {
+                    "newPassword": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "SmsMessage": {
+                "type": "object",
+                "properties": {
+                    "deviceIds": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "message": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "timestamp": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "SmsMessagesResponse": {
+                "type": "object",
+                "properties": {
+                    "hasMoreData": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "messages": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "SMSSendRequest": {
+                "type": "object",
+                "properties": {
+                    "accountName": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "customFields": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "dataEncoding": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "deviceIds": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "groupName": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "servicePlan": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "smsMessage": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            },
+            "Usage": {
+                "type": "object",
+                "properties": {
+                    "bytesUsed": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "extendedAttributes": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "servicePlan": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "smsUsed": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "source": {
+                        "description": "",
+                        "type": "put"
+                    },
+                    "timestamp": {
+                        "description": "",
+                        "type": "put"
+                    }
+                }
+            }
+        }
+    }
+}
