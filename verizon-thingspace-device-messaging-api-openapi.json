@@ -1,0 +1,16 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "v1",
+        "title": "Verizon Thingspace Device Messaging API",
+        "description": "If your product, device, machine, gadget or thing can connect to the Internet, it can use the Device Messaging API to easily publish and subscribe to data. Its machine-to-machine (M2M) messaging for the Internet Of Things (IOT) the way it was meant to be.",
+        "termsOfService": "https:\/\/thingspace.verizon.com\/developer\/terms"
+    },
+    "servers": [
+        "httpshttp:\/\/thingspace.io\/"
+    ],
+    "paths": [],
+    "components": {
+        "schemas": []
+    }
+}
