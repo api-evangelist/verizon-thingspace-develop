@@ -1,0 +1,470 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "v1",
+        "title": "Verizon Cloud APIs",
+        "description": "The Verizon Cloud APIs enable you to access the personal storage of millions of Verizon Cloud users who trust Verizon to automatically back up their important content including photos, videos, documents, and music. Personal content on any device, even on-the-go.  Documentation ",
+        "termsOfService": "https:\/\/thingspace.verizon.com\/developer\/terms"
+    },
+    "servers": [
+        "httpsapi.cloudapi.verizon.com\/cloud\/1"
+    ],
+    "paths": [],
+    "components": {
+        "schemas": {
+            "file_metadata": {
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "parentPath": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "checksum": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "contentAccessible": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "contentToken": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "deleted": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "extension": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "size": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "version": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "versionCreated": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "viewUid": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "uri": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "shareAssociation": {
+                        "description": "",
+                        "type": "string"
+                    }
+                }
+            },
+            "folder_metadata": {
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "parentPath": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "size": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "version": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "versionCreated": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "count": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "deleted": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "viewUid": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "shareAssociation": {
+                        "description": "",
+                        "type": "string"
+                    }
+                }
+            },
+            "viewUid": {
+                "type": "object",
+                "properties": {
+                    "type": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "viewType": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "uid": {
+                        "description": "",
+                        "type": "post"
+                    }
+                }
+            },
+            "deleted_list": {
+                "type": "object",
+                "properties": {
+                    "path": {
+                        "description": "",
+                        "type": "post"
+                    }
+                }
+            },
+            "metadata_response": {
+                "type": "object"
+            },
+            "fullview_response": {
+                "type": "object"
+            },
+            "fullview_data": {
+                "type": "object"
+            },
+            "searchresult_response": {
+                "type": "object",
+                "properties": {
+                    "count": {
+                        "description": "",
+                        "type": "post"
+                    }
+                }
+            },
+            "account_response": {
+                "type": "object"
+            },
+            "playlist": {
+                "type": "object",
+                "properties": {
+                    "uid": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "type": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "mimeTypeRegex": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "paths": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "creationDate": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "lastModifiedDate": {
+                        "description": "",
+                        "type": "post"
+                    }
+                }
+            },
+            "playlist_item": {
+                "type": "object",
+                "properties": {
+                    "filename": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "path": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "mimeType": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "size": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "versionCreated": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "contentToken": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "checksum": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "contentAccessible": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "extension": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "tags": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "uri": {
+                        "description": "",
+                        "type": "post"
+                    }
+                }
+            },
+            "playlist_add_request": {
+                "type": "object",
+                "properties": {
+                    "add": {
+                        "description": "",
+                        "type": "post"
+                    }
+                }
+            },
+            "playlist_add_response": {
+                "type": "object",
+                "properties": {
+                    "paths": {
+                        "description": "",
+                        "type": "post"
+                    }
+                }
+            },
+            "playlist_request": {
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "paths": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "type": {
+                        "description": "",
+                        "type": "post"
+                    }
+                }
+            },
+            "playlist_base": {
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "type": {
+                        "description": "",
+                        "type": "post"
+                    }
+                }
+            },
+            "folder_request": {
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "path": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "override": {
+                        "description": "",
+                        "type": "post"
+                    }
+                }
+            },
+            "fops_copy_request": {
+                "type": "object",
+                "properties": {
+                    "src": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "target": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "safe": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "conflictsolve": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "override": {
+                        "description": "",
+                        "type": "post"
+                    }
+                }
+            },
+            "metadata_update_request": {
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "value": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "uri": {
+                        "description": "",
+                        "type": "post"
+                    }
+                }
+            },
+            "fops_change_request": {
+                "type": "object",
+                "properties": {
+                    "src": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "target": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "safe": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "conflictsolve": {
+                        "description": "",
+                        "type": "post"
+                    }
+                }
+            },
+            "contacts": {
+                "type": "object",
+                "properties": {
+                    "userid": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "updated": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "contact": {
+                        "description": "",
+                        "type": "post"
+                    }
+                }
+            },
+            "uploadurls": {
+                "type": "object",
+                "properties": {
+                    "uploadurl": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "commiturl": {
+                        "description": "",
+                        "type": "post"
+                    }
+                }
+            },
+            "error_response": {
+                "type": "object",
+                "properties": {
+                    "error_code": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "error_description": {
+                        "description": "",
+                        "type": "post"
+                    }
+                }
+            },
+            "token_response": {
+                "type": "object",
+                "properties": {
+                    "token_type": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "expires_in": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "refresh_token": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "access_token": {
+                        "description": "",
+                        "type": "post"
+                    }
+                }
+            },
+            "Error": {
+                "type": "object",
+                "properties": {
+                    "error": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "error_description": {
+                        "description": "",
+                        "type": "post"
+                    }
+                }
+            },
+            "shareAssociation": {
+                "type": "object",
+                "properties": {
+                    "uid": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "visibility": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "type": {
+                        "description": "",
+                        "type": "string"
+                    }
+                }
+            }
+        }
+    }
+}
