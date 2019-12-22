@@ -5,8 +5,8 @@
     "tags": [
         "have api"
     ],
-    "created": "2019-12-19",
-    "modified": "2019-12-19",
+    "created": "2019-12-21",
+    "modified": "2019-12-21",
     "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/verizon-thingspace-develop\/master\/apis.json",
     "specificationVersion": "0.14",
     "apis": [
@@ -19,12 +19,8 @@
             "tags": [],
             "properties": [
                 {
-                    "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/thingspace-connectivity-management-api-openapi.json"
-                },
-                {
                     "type": "x-postman-collecction",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/thingspace-connectivity-management-api-postman-collection.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/verizon-thingspace-develop\/master\/thingspace-connectivity-management-api-postman-collection.json"
                 }
             ]
         },
@@ -37,12 +33,8 @@
             "tags": [],
             "properties": [
                 {
-                    "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/verizon-thingspace-device-messaging-api-openapi.json"
-                },
-                {
                     "type": "x-postman-collecction",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/verizon-thingspace-device-messaging-api-postman-collection.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/verizon-thingspace-develop\/master\/verizon-thingspace-device-messaging-api-postman-collection.json"
                 }
             ]
         },
@@ -55,18 +47,18 @@
             "tags": [],
             "properties": [
                 {
-                    "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/verizon-cloud-apis-openapi.json"
-                },
-                {
                     "type": "x-postman-collecction",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/verizon-cloud-apis-postman-collection.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/verizon-thingspace-develop\/master\/verizon-cloud-apis-postman-collection.json"
                 }
             ]
         }
     ],
     "include": [],
     "x-common": [
+        {
+            "type": "APIs.json",
+            "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/apis.json"
+        },
         {
             "type": "Developers",
             "url": "https:\/\/thingspace.verizon.com\/developer\/"
